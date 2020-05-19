@@ -28,7 +28,7 @@ while initiate:
     else:
         print('That is not a valid entry')
         
-    API_key = 'AIzaSyAqIcWFXcXyumPjT_qDt36IBjQhTPTRGYk'
+    API_key = ''
     
     try:
         id_response = requests.get(f'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={parameters}&inputtype=textquery&key={API_key}')
